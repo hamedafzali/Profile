@@ -183,13 +183,10 @@ input[type="submit"]:hover {
   }
   &.candidateInfo-card:hover {
     background-color: var(--color-silver);
-    color: var(--color-mediumblue);
-    //margin: 0 -0.1rem;
+    color: var(--color-olivegreen);
     transition: 0.3s 0.1s;
-    @include box-shadow(var(--box-shadow), 0.8);
     cursor: pointer;
     transform: scale(1.1, 1.1);
-    z-index: 1;
   }
 }
 .image {
